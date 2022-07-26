@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/image/weather.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <div class="middle">
+            <p>Use this site to get your weather!</p>
+
+            <form>
+                <input placeholder="Location" id="search" type="text">
+                <button id="searchbutton">Search</button>
+            </form>
+        </div>
+        <a id="load">Loading...</a>
+        <section>
+            <div class="margin">
+                <h6>Temperature:</h6>
+                <a id="temp" class="value"></a>
+            </div>
+            <div class="margin">
+                <h6>Precipitation:</h6>
+                <a class="value" id="precip"></a>
+            </div>
+            <div class="margin">
+                <h6>Humidity:</h6>
+                <a class="value" id="humid"></a>
+            </div>
+            <div>
+                <h6>Wind:</h6>
+                <a class="value" id="wind"></a>
+            </div>
+        </section>
+        <aside>
+            <a class="aside" id="place"></a><br>
+            <a class="aside" id="time"></a><br>
+            <a class="aside" id="desc"></a>
+        </aside>
+        <p id="message1"></p>
+
+    </div>
+    {{>footer}}
+    <script src="/client/app.js"></script>
+</body>
+
+</html>

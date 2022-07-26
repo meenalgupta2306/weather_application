@@ -1,0 +1,83 @@
+body{
+    color: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    color: #888888;
+    border-top: 2px solid #c4c4c4;
+    margin-top: 16px;
+    padding: 6px 0;
+}
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+.portrait{
+    margin-top: 30px;
+    width: 30vw;
+}
+
+#message1{
+    font-size: 30px;
+}
+section {
+    display: none;
+    float: left;
+    width: 30%;
+    padding-top: 51px;
+  }
+  aside {
+    display: none;
+    float: right;
+    margin: 0 1.5%;
+    width: 55%;
+    padding-top: 80px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  h6{
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .margin{
+    margin-bottom: -40px;
+  }
+  .value{
+    font-size: 15px;
+  }
+  input{
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .middle{
+    padding-top: 50px;
+  }
+
+  #searchbutton{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+#load{
+    display: none;
+}
