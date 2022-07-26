@@ -13,7 +13,7 @@ form.addEventListener('submit', (e) => {
     //prevent refresh of page
     e.preventDefault();
     const location = search.value;
-    const url = 'http://localhost:3000/weather?address=' + location
+    const url = '/weather?address=' + location
     document.querySelector('#load').style.display='block';
     message1.style.display='none';
     fetch(url)
