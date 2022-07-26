@@ -28,7 +28,7 @@ forecast = (latitude, longitude, callback) => {
                 wind: response.body.current.wind_speed+' km/hr',
                 precip: response.body.current.precip,
                 humidity: response.body.current.humidity,
-                temperature: response.body.current.temperature+ ' C',
+                temperature: response.body.current.temperature+ '\u00B0',
                 localtime: response.body.location.localtime
             })
             //callback(undefined,data);

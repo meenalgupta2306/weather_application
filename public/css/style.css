@@ -81,3 +81,29 @@ section {
 #load{
     display: none;
 }
+#desig{
+  font-size: 3vw;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+
+@media only screen and (max-width: 600px){
+  aside{
+    width: 38%;
+    margin: 0;
+
+  }
+  section{
+    width: 55%;
+  }
+  h6{
+    margin-right: 0;
+  }
+  .portrait{
+    width: 85vw;
+  }
+  #desig{
+    font-size: 7vw;
+  }
+}

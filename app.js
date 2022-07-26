@@ -54,17 +54,9 @@ app.get('', (req, res) => {
     })
 })
 
-app.get('/help', (req, res) => {
-    res.render('help', {
-        helptext: "Help text here",
-        title: "Help",
-        name: "Meenal"
-    })
-})
-
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: "About Me",
+        title: "About Me",      
         name: "Meenal"
     })
 })
